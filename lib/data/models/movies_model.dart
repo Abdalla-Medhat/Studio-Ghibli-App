@@ -14,7 +14,7 @@ class MoviesModel {
   MoviesModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     title = json['title'];
-    japaneseTitle = json['japanese_title'];
+    japaneseTitle = json['original_title'];
     image = json['image'];
     movieBanner = json['movie_banner'];
     description = json['description'];

@@ -9,9 +9,9 @@ sealed class MovieState extends Equatable {
 
 final class MovieInitial extends MovieState {}
 
-final class MovieLoaded extends MovieState {
+final class MoviesLoaded extends MovieState {
   final List<MoviesModel> movies;
-  const MovieLoaded(this.movies);
+  const MoviesLoaded(this.movies);
 
   @override
   List<Object> get props => [movies];

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ghibli/router.dart';
 
 void main() {
-  runApp(const Ghibli(appRouter: AppRouter()));
+  runApp(Ghibli(appRouter: AppRouter()));
 }
 
 class Ghibli extends StatelessWidget {

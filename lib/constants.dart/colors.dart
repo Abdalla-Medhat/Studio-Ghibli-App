@@ -10,5 +10,5 @@ class AppColors {
     239,
   ); // for background
   static const Color browny = Color(0xFFBF906A); //  for headlines
-  static const Color darkBrown = Color(0xFF75635B); // for texts and
+  static const Color darkBrown = Color.fromARGB(255, 43, 35, 32); // for texts
 }

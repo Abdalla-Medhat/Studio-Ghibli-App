@@ -1,4 +1,4 @@
-class people {
+class PeopleModel {
   String? id;
   String? name;
   String? gender;
@@ -9,7 +9,7 @@ class people {
   String? species;
   String? url;
 
-  people.fromJson(Map<String, dynamic> json) {
+  PeopleModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     gender = json['gender'];
